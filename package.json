@@ -6,7 +6,8 @@
     "release": "cp dist/bundle.js $(git root)/resources/assets/fx.prettier/prettier-lua.js"
   },
   "dependencies": {
-    "@prettier/plugin-lua": "0.0.1"
+    "@prettier/plugin-lua": "0.0.1",
+    "prettier": "1.19.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "17.0.0",
