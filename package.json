@@ -6,13 +6,12 @@
     "release": "cp dist/bundle.js $(git root)/resources/assets/fx.prettier/prettier-lua.js"
   },
   "dependencies": {
-    "@prettier/plugin-lua": "0.0.1",
-    "@rollup/plugin-typescript": "^8.1.0",
-    "prettier": "1.19.1",
-    "rollup-plugin-polyfill-node": "^0.5.0",
-    "source-map": "^0.7.3"
+    "@prettier/plugin-lua": "0.0.1"
   },
   "devDependencies": {
+    "prettier": "1.19.1",
+    "source-map": "^0.7.3",
+    "rollup-plugin-polyfill-node": "^0.5.0",
     "@rollup/plugin-commonjs": "17.0.0",
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-node-resolve": "11.0.1",
